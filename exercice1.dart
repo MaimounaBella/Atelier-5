@@ -1,4 +1,4 @@
-//Exercice 1 : Try-Catch
+// Exercice 1 : Try-Catch
 void main() {
   // Le bloc try contient le code qui pourrait produire une exception.
   try {
@@ -14,5 +14,4 @@ void main() {
     print('Division impossible');
   }
 }
-
-//Fin de l'Exercice 1
+// Fin de l'exercice 1
