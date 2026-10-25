@@ -8,8 +8,12 @@ void main() {
   try {
     final age = int.parse(texteAge!); // Convertissons le texte en entier.
     print('Tu as $age ans.'); // Affichons l'âge si la conversion réussit.
-  } on FormatException catch (e) {
+  } on FormatException {
     // Ce bloc s'exécute si le texte saisi n'est pas un nombre entier valide.
     print('Format invalide : saisis ton âge avec des chiffres.');
+  } finally {
+    // Ce bloc s'exécute que la conversion réussisse ou échoue.
+    print('Fin d’opération');
   }
 }
+// Fin de l'exercice 2
